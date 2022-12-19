@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
+import {Navbar} from "./layouts/navbar/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to React Library App</h1>
-    </div>
-  );
+    return (
+        <Navbar/>
+    );
 }
 
 export default App;
